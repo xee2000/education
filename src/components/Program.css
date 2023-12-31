@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'KNUTRUTHTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/KNUTRUTHTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+font-family: 'JalnanGothic';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+.container{
+    padding:0px;
+    margin:0;
+}
+
+.b2b{
+display: flex;
+margin: 10%;
+}
+.b2b_title{
+font-size:2.5rem;
+font-weight: bold;
+margin-bottom: 5%;
+}
+.b2b_content{
+    margin-bottom: 10%;
+}
+.b2bimg{
+    background-image: url('/charlogo.jpg');
+    width:500px;
+    height:364px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.solbutton{
+    background-color: #01A9DB;
+    color:white;
+    padding:30px;
+    font-size:1rem;
+    border-radius: 10px;
+    font-family: 'KNUTRUTHTTF';
+}
+.solbutton:hover{
+    background-color: white;
+    color:black;
+
+}
+.cardList{
+    display: flex;
+    background-color: #F7FE2E;
+    justify-content: center; 
+}
+.card{
+    background-color: #FAFAFA;
+    border:1.5px solid black;
+    margin: 15px;
+    width:300px;
+    height:180px;
+    border-radius: 5%;
+    padding:10px;
+}
+.card_title{
+    font-family: 'JalnanGothic';
+}
+.card_cate{
+    font-family: 'NPSfontBold';
+}
+
