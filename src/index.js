@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Program from "./components/Program";
 import Education from "./components/Education";
-import Sub01 from "./components/sub/Sub01";
+import MyReport from "./components/MyReport";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     element: <Education />,
   },
   {
-    path: "/Sub01",
-    element: <Sub01 />,
+    path: "/MyReport",
+    element: <MyReport />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

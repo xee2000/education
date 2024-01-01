@@ -34,36 +34,81 @@ body{
 }
 .container{
     margin: 0 auto;
+    width:1200px;
 }
 .title{
     margin-top:5%;
     margin-bottom:5%;
     text-align: center;
     font-size:1.5rem;
-    font-family: 'TAEBAEKmilkyway';
+    font-family: 'JalnanGothic';
     font-weight: normal;
 }
 .Card{
-    width:600px;
+    width:1200px;
     height:300px;
     margin: 0 auto;
-    position:relative;
-    border: 2px solid white;
-    border-radius: 20px;
+    position: relative;
 }
+
 .Card_Img{
-    background-image: url('/dameon.jpg');
-    width:600px;
+    background-image: url('/careful.jpg');
+    width: 600px;
     height:300px;
     background-size: contain;
-    position: absolute;
     background-repeat: no-repeat;
+    float:left;
+    margin-right:3%;
+}
+
+.Card_Title{
+    color:black;
+    }
+.heal_content{
+    font-family: 'TheJamsil5Bold';
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2c2c2c;
+
+}
+
+
+.MindCard{
+    margin-top:30px;
+    width:1200px;
+    height:400px;
+    margin: 0 auto;
     border-radius: 20px;
 }
-.Card_Title{
-    position: absolute;
-    top:20%;
-    left:5%;
+.MindImg{
+    background-image: url('/lifegraph.jpg');
+    width:600px;
+    height:400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float:left;
+    margin-right:3%;
+}
+.Mindcontent{
     color:black;
-    font-family: 'JalnanGothic';
+}
+
+.InnerCard{
+    margin-top:30px;
+    width:1200px;
+    height:600px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.InnerImg{
+    background-image: url('/innerchild.jpg');
+    width:600px;
+    height:600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float:left;
+    margin-right:3%;
+}
+.Innercontent{
+    color:black;
 }

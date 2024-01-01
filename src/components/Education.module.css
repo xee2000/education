@@ -57,5 +57,5 @@ font-family: 'Danjo-bold-Regular';
 }
 .item:hover{
     color:black;
-    
+    transition:0.3s;
 }
